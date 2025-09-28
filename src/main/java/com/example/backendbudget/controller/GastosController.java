@@ -12,7 +12,7 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://front-budget.netlify.app")
 @RestController
 @RequestMapping("/api/gastos")
 public class GastosController {

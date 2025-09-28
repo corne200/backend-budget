@@ -16,7 +16,7 @@ import org.springframework.http.ResponseEntity;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://front-budget.netlify.app")
 @RestController
 @RequestMapping("/presupuestos")
 public class PresupuestoMensualController {
